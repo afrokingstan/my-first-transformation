@@ -27,3 +27,26 @@ img {
 img:hover {
     transform: scale(2);
 }
+
+.box-4 { 
+    width: 100px;
+    height:100px;
+    margin: 25px;
+    background-color: blue;
+    
+}
+
+.box-4:hover {
+    animation: rotating 2s linear infinite;
+    
+}
+
+@keyframes rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
