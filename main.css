@@ -1,0 +1,20 @@
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: #e86410;
+    transform: translate(180px, 120px);
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    transform: rotate(160deg);
+}
+
+.box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: skew(160deg);
+}
