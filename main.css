@@ -18,3 +18,12 @@
     background-color: green;
     transform: skew(160deg);
 }
+
+img {
+   
+	margin: 50px;
+}
+
+img:hover {
+    transform: scale(2);
+}
