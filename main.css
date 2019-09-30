@@ -37,7 +37,10 @@ img:hover {
 }
 
 .box-4:hover {
-    animation: rotating 2s linear infinite;
+    animation-name: rotating;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
     
 }
 
